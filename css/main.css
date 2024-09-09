@@ -556,6 +556,7 @@ footer {
 
 /* RESPONSIVE */
 @media (width > 1500px) {
+   /* REUSABLE */
    .scroll_line {
       gap: 1vw;
       padding: 1vw 0;
@@ -563,6 +564,8 @@ footer {
    .scroll_line div {
       font-size: 1vw;
    }
+
+   /* HERO */
    .hero-content-logo {
       width: 13vw;
    }
@@ -596,6 +599,8 @@ footer {
    .hero-img-text_circle-container {
       top: 0;
    }
+
+   /* SUPPORT */
    .support h2,
    h2 > * {
       font-size: 2vw;
@@ -610,6 +615,8 @@ footer {
    .support-contact {
       font-size: 1vw;
    }
+
+   /* STAGES */
    .stages h2 {
       font-size: 2.5vw;
    }
@@ -625,6 +632,8 @@ footer {
       font-weight: 600;
       letter-spacing: -0.02vw;
    }
+
+   /* PLAYERS */
    .players-top h2 {
       font-size: 2.5vw;
    }
@@ -638,11 +647,7 @@ footer {
       font-size: 1vw;
    }
    .players-carousel {
-      padding: 4.4vw 5vw;
-      width: 89vw;
-      display: flex;
-      gap: 9vw;
-      overflow: hidden;
+      padding: 4.4vw 0;
    }
    .players-carousel li img {
       pointer-events: none;
@@ -658,6 +663,8 @@ footer {
       margin-top: 1vw;
       font-size: 1vw;
    }
+
+   /* FOOTER */
    .footer-text {
       padding: 2vw 6vw 4vw 5.2vw;
       font-size: 1vw;
